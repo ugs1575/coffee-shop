@@ -16,10 +16,10 @@ import lombok.NoArgsConstructor;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Member {
+public class User {
 	@Id
 	@GeneratedValue
-	@Column(name = "member_id")
+	@Column(name = "user_id")
 	private Long id;
 	private String username;
 
